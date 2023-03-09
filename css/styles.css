@@ -768,7 +768,6 @@ background-color: var(--color-lightblue);
     align-items: center;
     margin-bottom: 24px;
     font-size: 12px;
-    appearance: none;
 }
 
 .checked {
@@ -784,9 +783,13 @@ background-color: var(--color-lightblue);
 .form-check:checked + .checked {
     background: var(--color-lightblue);
     border: 1px solid var(--color-lightblue);
-    background-image: url(../images/icons.svg#icon-send);
+    background-image: url(../images/clic.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.form-check:checked {
+    appearance: none;
 }
 
 .button-oneform {
