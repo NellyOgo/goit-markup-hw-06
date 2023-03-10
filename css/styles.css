@@ -313,7 +313,7 @@ img {
     justify-content: center;
     gap: 24px;
     margin-top: 8px;
-    margin-right: 16px;
+
 }
 
 .socials-icon {
@@ -689,11 +689,10 @@ background-color: var(--color-lightblue);
 /*form*/
 
 .contact-form {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
+
+
     width: 360px;
-    height: 24px;
+
 }
 
 
@@ -735,7 +734,6 @@ background-color: var(--color-lightblue);
 
 .user-type {
     display: block;
-   margin-bottom: 8px;
 }
 
 .user-form {
@@ -897,8 +895,8 @@ background-color: var(--color-lightblue);
 .button-footer {
     display: flex;
     align-items: center;
-    text-align: center;
-    justify-content: left;
+    width: 165px;
+    height: 40px;
     background-color: var(--color-variable);
     color: var(--color-inverted);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -910,10 +908,9 @@ background-color: var(--color-lightblue);
     font-weight: var(--font-weight500);
     line-height: var(--line-height15);
     cursor: pointer;
-    width: 165px;
-    height: 40px;
     padding: 8px 24px;
     gap: 16px;
+    letter-spacing: 0.04em;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -926,10 +923,22 @@ background-color: var(--color-lightblue);
 }
 
 .footer-svg {
-    align-items: center;
-    text-align: center; 
+    width: 24px;
+    height: 20px;
 }
 
-.contact-form{
+.contact-form {
     display: flex;
+    gap: 24px;
 }
+
+/*
+.contact-form-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    width: 453px;
+    height: 80px;
+    gap: 24px;
+}*/
