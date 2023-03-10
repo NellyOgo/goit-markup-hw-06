@@ -852,7 +852,18 @@ background-color: var(--color-lightblue);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background: var(--color-one);
+    color: var(--color-inverted);
 }
+/*
+.model-userform-footer:placeholder-shown {
+    border-color: var(--color-inverted);
+}
+
+
+.model-userform-footer:not(:placeholder-shown) {
+    border-color: #2196f3;
+}*/
+
 
 .footer-card-form {
     font-weight: var(--font-weight500);
@@ -867,6 +878,7 @@ background-color: var(--color-lightblue);
     color: var(--color-inverted);
 }
 
+/*
 .user-form-footer {
     position: absolute;
     font-size: 12px;
@@ -880,10 +892,9 @@ background-color: var(--color-lightblue);
     text-align: center;
     display: flex;
     color: var(--color-inverted);
-}
+}*/
 
 .button-footer {
-    position: absolute;
     display: flex;
     align-items: center;
     text-align: center;
@@ -899,11 +910,8 @@ background-color: var(--color-lightblue);
     font-weight: var(--font-weight500);
     line-height: var(--line-height15);
     cursor: pointer;
-    background-image: url(../images/frame.svg);
     width: 165px;
     height: 40px;
-    background-repeat: no-repeat;
-    background-position: center;
     padding: 8px 24px;
     gap: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -915,4 +923,14 @@ background-color: var(--color-lightblue);
 
 .button-footer:focus {
     background-color: var(--color-variable);
+}
+
+.footer-svg {
+    position: absolute;
+     align-items: center;
+    text-align: center; 
+}
+
+.contact-form{
+    display: flex;
 }
