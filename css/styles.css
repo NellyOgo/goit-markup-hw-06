@@ -854,12 +854,12 @@ background-color: var(--color-lightblue);
     background: var(--color-one);
     color: var(--color-inverted);
 }
-/*
-.model-userform-footer:placeholder-shown {
-    border-color: var(--color-inverted);
+
+.model-userform-footer::placeholder {
+    color: var(--color-inverted);
 }
 
-
+/*
 .model-userform-footer:not(:placeholder-shown) {
     border-color: #2196f3;
 }*/
@@ -926,8 +926,7 @@ background-color: var(--color-lightblue);
 }
 
 .footer-svg {
-    position: absolute;
-     align-items: center;
+    align-items: center;
     text-align: center; 
 }
 
