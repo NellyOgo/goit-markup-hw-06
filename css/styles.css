@@ -646,7 +646,7 @@ background-color: var(--color-lightblue);
     border-radius: 4px; 
     transform: scale(1);
     transition: transform 250ms;
-    /*padding: 72px 24px;*/
+    padding: 72px 24px;
 }
 
 .backdrop.is-hidden .model {
@@ -692,10 +692,10 @@ background-color: var(--color-lightblue);
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 8px;
+    /*gap: 8px;
     padding-left: 24px;
     padding-right: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 24px;*/
 }
 
 
@@ -705,9 +705,9 @@ background-color: var(--color-lightblue);
     font-weight: var(--font-weight500);
     line-height: var(--line-height15);
     font-size: 16px;
-    padding-bottom: 16px;
-    margin-top: 72px;
-    padding-left: 24px;
+    margin-bottom: 16px;
+    /*margin-top: 72px;
+    padding-left: 24px;*/
 }
 
 .model-userform {
@@ -739,6 +739,7 @@ background-color: var(--color-lightblue);
 
 .user-type {
     display: block;
+    margin-bottom: 8px;
 }
 
 .user-form {
@@ -780,8 +781,10 @@ background-color: var(--color-lightblue);
 .model-check {
     display: flex;
     align-items: center;
+    margin-top: 16px;
     margin-bottom: 24px;
     font-size: 12px;
+    gap: 8px;
 }
 
 .checked {
@@ -824,6 +827,7 @@ background-color: var(--color-lightblue);
     padding: 16px 32px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 0 auto;
+    margin-top: 24px;
 }
 
 .button-oneform:focus {
@@ -873,6 +877,7 @@ background-color: var(--color-lightblue);
     display: block;
     text-align: left;
     color: var(--color-inverted);
+    margin-bottom: 16px;
 }
 
 /*
